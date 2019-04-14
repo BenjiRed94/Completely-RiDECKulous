@@ -25,13 +25,13 @@ for (i = 0; i < link.length; i++) {
 }
 
 span.onclick = function () {
-    modalImage.src = "./card-back-default.jpg"
+    modalImage.src = "../source_images/card-back-default.jpg"
     modal.style.display = "none";
 }
 
 window.onclick = function(event) {
     if (event.target == modal) {
-        modalImage.src = "./card-back-default.jpg"
+        modalImage.src = "../source_images/card-back-default.jpg"
         modal.style.display = "none";
     }
 }
